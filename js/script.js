@@ -7,7 +7,8 @@
 "use strict"
 
 function calculatePressed() {
-  //Input through Text Fields
+  //This function finds the volume of a right rectangular prism
+  //Input through Textfields
   const baseLength = parseFloat(document.getElementById("base-length").value)
   const baseWidth = parseFloat(document.getElementById("base-width").value)
   const height = parseFloat(document.getElementById("height").value)
